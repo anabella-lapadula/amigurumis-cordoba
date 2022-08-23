@@ -1,0 +1,38 @@
+h1 { 
+    font-family:'Oswald', sans-serif;
+    font-size: 2rem;
+    color: rgb(242, 244, 207);
+    text-shadow: 5px 10px 20px black ; 
+}
+h1:hover {
+    color: brown;
+    text-shadow: 0 0 10px white, 0 0 20px white, 0 0 40px white
+}
+.logo{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: solid black 2px;
+}
+
+
+
+a{
+  text-decoration: none;
+    color: bisque;
+    
+} 
+.navegador{
+    background-image: linear-gradient(to top,  #414345, #8e6392);
+
+}
+.colorNav{
+    color: bisque;
+}
+ .portada{
+    background-image:  url(../img/fondo_portada.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; 
+
+}

@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2? family= Oswald:wght@300 & display=swap");
+h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+  color: rgb(242, 244, 207);
+  text-shadow: 5px 10px 20px black;
+}
+
+h1:hover {
+  color: brown;
+  text-shadow: 0 0 10px white, 0 0 20px white, 0 0 40px white;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  border: solid black 2px;
+}
+
+a {
+  text-decoration: none;
+  color: bisque;
+}
+
+.navegador {
+  background-image: linear-gradient(to top, #414345, #8e6392);
+}
+
+.colorNav {
+  color: bisque;
+}
+
+.portada {
+  background-image: url(../img/fondo_portada.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+/**seccion*/
+.video {
+  width: 100%;
+  height: 30vh;
+}
+
+.articulo {
+  width: 100%;
+  height: 30vh;
+}
+
+.bold {
+  font-weight: bold;
+  color: rgb(242, 244, 207);
+}
+
+/*mapaIndex*/
+.mapa {
+  width: 100%;
+  padding: 5px;
+  margin: 5px;
+}
+
+.border {
+  border: solid 1px beige;
+}
+
+.iframeMapa {
+  width: 95%;
+}
+
+/*# sourceMappingURL=destino.css.map */
