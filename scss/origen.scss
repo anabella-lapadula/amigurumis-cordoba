@@ -1,4 +1,34 @@
 @import url('https://fonts.googleapis.com/css2? family= Oswald:wght@300 & display=swap');
 @import "portada";
 @import "index";
+@import "informacion";
+@import "media";
+
+
+
+body{
+    margin: 0%;
+    box-sizing: border-box;
+    font-family:  'Oswald', sans-serif;
+    background-image: linear-gradient(to top,  #0D324D, #7F5A83);
+    background-repeat: no-repeat;
+    
+    }
+    
+
+
+h3{
+    font-family:'Oswald', sans-serif;
+    color: bisque;
+    text-align: center;
+    text-shadow: 0 0 5px bisque;
+    font-size: 20px;
+    }
+
+.texto{
+    @extend h3 ;
+    font-size: 30px;
+    
+}
+
 

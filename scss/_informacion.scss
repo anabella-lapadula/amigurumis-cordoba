@@ -1,0 +1,49 @@
+/**informacion**/
+
+@mixin tamaño ($ancho, $margen ) {
+    width: $ancho;
+    margin: $margen ;
+
+}
+.boxInf{
+    width: 50%;
+    margin-left: 25% ;
+    background-color:rgba(213, 54, 231, 0.2);
+
+}
+.boxDiv{
+    @include tamaño(50%,10px )
+ 
+}
+.flexInf{
+    display: flex;
+     
+}
+
+.logoRed{
+    @include tamaño(80px ,5% )
+
+}
+.mapaInfo{
+    width: 100%;
+    height: 50vh;
+    
+}
+.textInf{
+    text-align: center;
+    background-color: rgb(81, 77, 77);
+    color: rgb(224, 71, 150);
+    font-size: 15px;
+}
+.pInfo{
+    font-size: 20px;
+    margin-left: 20px;
+    color: bisque;
+    font-family:  'Oswald', sans-serif;
+    
+
+}
+
+
+
+
