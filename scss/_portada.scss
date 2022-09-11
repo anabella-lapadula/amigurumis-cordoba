@@ -1,11 +1,13 @@
+@import "variables";
+
 h1 { 
     font-family:'Oswald', sans-serif;
     font-size: 2rem;
-    color: rgb(242, 244, 207);
+    color: $color;
     text-shadow: 5px 10px 20px black ; 
 }
 h1:hover {
-    color: brown;
+    color: white;
     text-shadow: 0 0 10px white, 0 0 20px white, 0 0 40px white
 }
 .logo{
@@ -19,7 +21,7 @@ h1:hover {
 
 a{
   text-decoration: none;
-    color: bisque;
+    color: $color;
     
 } 
 .navegador{
@@ -27,7 +29,7 @@ a{
 
 }
 .colorNav{
-    color: bisque;
+    color: $color;
 }
  .portada{
     background-image:  url(../img/fondo_portada.jpg);
@@ -35,17 +37,4 @@ a{
     background-size: cover;
     background-position: center center; 
 
-}
-/** EStilos generales**/
-h2{
-    text-align: center;
-    font-size: 18px;
-    color:rgb(66, 63, 65) ;
-    background-color:bisque;
-}
-
-.colorTexto{
-    color: rgb(225, 155, 70);
-    font-size: 16px;
-    margin-left: 10px;
 }

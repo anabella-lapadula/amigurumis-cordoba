@@ -2,12 +2,12 @@
 h1 {
   font-family: "Oswald", sans-serif;
   font-size: 2rem;
-  color: rgb(242, 244, 207);
+  color: rgb(248, 252, 240);
   text-shadow: 5px 10px 20px black;
 }
 
 h1:hover {
-  color: brown;
+  color: white;
   text-shadow: 0 0 10px white, 0 0 20px white, 0 0 40px white;
 }
 
@@ -20,7 +20,7 @@ h1:hover {
 
 a {
   text-decoration: none;
-  color: bisque;
+  color: rgb(248, 252, 240);
 }
 
 .navegador {
@@ -28,7 +28,7 @@ a {
 }
 
 .colorNav {
-  color: bisque;
+  color: rgb(248, 252, 240);
 }
 
 .portada {
@@ -38,18 +38,13 @@ a {
   background-position: center center;
 }
 
-/** EStilos generales**/
-h2 {
-  text-align: center;
-  font-size: 18px;
-  color: rgb(66, 63, 65);
-  background-color: bisque;
-}
-
-.colorTexto {
-  color: rgb(225, 155, 70);
-  font-size: 16px;
-  margin-left: 10px;
+/**lateral**/
+.img {
+  width: 80%;
+  height: 200px;
+  border-radius: 5px;
+  border: solid black 2px;
+  margin: 3px;
 }
 
 /**seccion*/
@@ -65,7 +60,7 @@ h2 {
 
 .bold {
   font-weight: bold;
-  color: rgb(242, 244, 207);
+  color: rgb(248, 252, 240);
 }
 
 /*mapaIndex*/
@@ -76,7 +71,7 @@ h2 {
 }
 
 .border {
-  border: solid 1px beige;
+  border: solid 1px rgb(248, 252, 240);
 }
 
 .iframeMapa {
@@ -176,20 +171,8 @@ h2 {
   font-family: "Oswald", sans-serif;
 }
 
-/**MEDIA*/
 /*desktop*/
 @media (min-width: 1024px) {
-  /**Index*/
-  .img {
-    width: 80%;
-    height: 200px;
-    border-radius: 5px;
-    border: solid black 2px;
-    margin: 3px;
-  }
-  .fondo {
-    background-color: rgb(54, 66, 72);
-  }
   /*productos*/
   #producto {
     display: grid;
@@ -223,24 +206,8 @@ h2 {
     text-shadow: 0 0 10px black;
   }
 }
-/**tablet*/
+/**TABLET*/
 @media (min-width: 481px) and (max-width: 1023px) {
-  /*index*/
-  .img {
-    width: 80%;
-    height: 16.7vh;
-    border-radius: 5px;
-    border: solid black 2px;
-    margin: 1px;
-  }
-  #grid {
-    display: grid;
-    grid-template-areas: "header header" "lateral articulo" "lateral video" "lateral mapa" " pie pie";
-    grid-template-columns: 0.5fr 2fr;
-    grid-template-rows: 0.3fr 1fr 1fr 0.5fr 0.1fr;
-    grid-column-gap: 5px;
-    grid-row-gap: 5px;
-  }
   /**productos*/
   #producto {
     display: grid;
@@ -288,20 +255,6 @@ h2 {
 }
 /**smartphone*/
 @media (max-width: 480px) {
-  /*index*/
-  .img {
-    width: 20%;
-    height: 10vh;
-    border-radius: 5px;
-    border: solid black 2px;
-    margin: 1px;
-  }
-  .logo {
-    width: 100px;
-    height: 100px;
-    border-radius: 10px;
-    border: solid black 2px;
-  }
   /*productos*/
   #producto {
     display: grid;
@@ -505,24 +458,38 @@ h2 {
     animation-timing-function: ease-out;
   }
 }
+/** EStilos generales**/
 body {
   margin: 0%;
   box-sizing: border-box;
   font-family: "Oswald", sans-serif;
-  background-image: linear-gradient(to top, #0D324D, #7F5A83);
+  background-image: linear-gradient(to top, #5f085c, #c7abca);
   background-repeat: no-repeat;
 }
 
 h3, .texto {
   font-family: "Oswald", sans-serif;
-  color: bisque;
+  color: rgb(248, 252, 240);
   text-align: center;
-  text-shadow: 0 0 5px bisque;
+  text-shadow: 0 0 5px rgb(248, 252, 240);
   font-size: 20px;
 }
 
 .texto {
   font-size: 30px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 18px;
+  color: rgb(66, 63, 65);
+  background-color: rgb(248, 252, 240);
+}
+
+.colorTexto {
+  color: rgb(225, 155, 70);
+  font-size: 16px;
+  margin-left: 10px;
 }
 
 /*# sourceMappingURL=destino.css.map */

@@ -1,5 +1,15 @@
-/**seccion*/
+@import"variables"; 
+/**lateral**/
+    .img{
+        width: 80%;
+        height: 200px;
+        border-radius: 5px;
+        border: solid black 2px;
+        margin: 3px;    
+    }  
 
+
+/**seccion*/
 
 .video{
     width: 100%;
@@ -14,7 +24,7 @@
 
 .bold{
     font-weight: bold;
-    color:  rgb(242, 244, 207);
+    color: $color;
 }
 
 /*mapaIndex*/
@@ -26,7 +36,7 @@
 }
 
 .border{
-    border: solid 1px beige;
+    border: solid 1px $color;
 }
 
 .iframeMapa{
