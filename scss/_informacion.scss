@@ -11,8 +11,8 @@
     background-color:rgba(213, 54, 231, 0.2);
 
 }
-.boxDiv{
-    @include tamaño(50%,10px )
+.boxRedes{
+    @include tamaño(50%,0px)
  
 }
 .flexInf{
@@ -21,7 +21,7 @@
 }
 
 .logoRed{
-    @include tamaño(80px ,5% )
+    @include tamaño(60px ,15% )
 
 }
 .mapaInfo{
