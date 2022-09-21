@@ -1,3 +1,5 @@
+
+@import"variables"; 
 /*presentacion*/
 
 
@@ -11,8 +13,12 @@
 
 
 .p{
-    color: rgb(28, 28, 8);
-   font-weight: bold;
+    color: black;
+    font-weight: 15px;
+    text-shadow: 0 0 10px $color;
+    padding: 50px;
+
+
    height: 80vh;
 }
 
